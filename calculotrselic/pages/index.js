@@ -1,14 +1,9 @@
 import styles from '../styles/Home.module.css'
-
+import { Container } from 'react-bootstrap'
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Teste
-        </h1>
-      </main>
-
-    </div>
+    <Container>
+      Teste
+    </Container>
   )
 }

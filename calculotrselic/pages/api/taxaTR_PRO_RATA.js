@@ -1,5 +1,7 @@
+import { getKnex } from "../../knex/index";
+
 //seta o knex na variável
-const knex = require('../../config/database')
+const knex = getKnex()
 
 export default async(req, res) => {
 
